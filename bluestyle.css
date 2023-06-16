@@ -1,8 +1,62 @@
 body {
-    background-color: lightblue;
-    }
-    
-    h1 {
-    color: navy;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+
+  .nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav li {
     margin-left: 20px;
-    }
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .banner {
+    height: 500px;
+    background-image: url("./gymbanner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner h1 {
+    color: white;
+    font-size: 64px;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .content {
+    padding: 40px;
+  }
+
+  .content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
